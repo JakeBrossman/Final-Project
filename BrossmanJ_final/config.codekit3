@@ -242,6 +242,45 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/carosel\/carosel4.jpg" : {
+      "ft" : 16384,
+      "iS" : 26304,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/carosel\/carosel4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/carosel\/Vector1.png" : {
+      "ft" : 32768,
+      "iS" : 260,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/carosel\/Vector1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/carosel\/Vector2.png" : {
+      "ft" : 32768,
+      "iS" : 281,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/carosel\/Vector2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/footer\/Socials.png" : {
       "ft" : 32768,
       "iS" : 7207,
@@ -286,6 +325,32 @@
       "iS" : 35327,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/packages\/steammop.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/review\/Star.png" : {
+      "ft" : 32768,
+      "iS" : 332,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/review\/Star.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/review\/starwhite.png" : {
+      "ft" : 32768,
+      "iS" : 558,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/review\/starwhite.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -352,6 +417,30 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/accessories.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/accessories.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/advatages.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/advatages.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/carosel.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/carosel.html",
+      "oF" : 0
+    },
     "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -360,11 +449,27 @@
       "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
+    "\/dev\/content\/packages.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/packages.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/reviews.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/reviews.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
