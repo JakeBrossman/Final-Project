@@ -1,3 +1,26 @@
 /* =============
     Header
 ============= */
+header{
+    
+    div{
+        h1{
+            background-color: var(--purple);
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 20px 120px;
+        }
+        ul{
+            li{
+                
+               a{
+                color: white;
+                } 
+                background-color: var(--red);
+                color: white;
+                
+            }
+        }
+    }
+}
