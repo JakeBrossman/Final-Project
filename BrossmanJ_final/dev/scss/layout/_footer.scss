@@ -1,3 +1,19 @@
 /* =============
     Footer
 ============= */
+#footer{
+    background-color: var(--red);
+    h1{
+        color: var(--white);
+       }   
+    ul{
+        li{
+           h1{
+            color: var(--white);
+           }
+            p{
+                color: var(--white);
+            }
+        }
+    }
+}

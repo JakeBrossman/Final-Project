@@ -14,6 +14,7 @@ html {
   --black: #000000;
   --white: #ffffff;
   --purple:rgba(112, 75, 127, 1);
+  --lightpurple: rgba(203, 174, 215, 1);
   --red: rgba(177, 38, 43, 1);
 }
 
@@ -347,6 +348,11 @@ a {
   width: 100%;
 }
 
+.red-bar {
+  background-color: var(--red);
+  padding: 16px;
+}
+
 /* =============
     Typography
 ============= */
@@ -415,3 +421,15 @@ header div ul li a {
 /* =============
     Footer
 ============= */
+#footer {
+  background-color: var(--red);
+}
+#footer h1 {
+  color: var(--white);
+}
+#footer ul li h1 {
+  color: var(--white);
+}
+#footer ul li p {
+  color: var(--white);
+}
