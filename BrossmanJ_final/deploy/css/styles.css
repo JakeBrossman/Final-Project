@@ -403,19 +403,35 @@ textarea {
 /* =============
     Header
 ============= */
-header div h1 {
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 200px;
+  z-index: 999;
+}
+#header nav h1 {
   background-color: var(--purple);
   color: white;
   text-align: center;
   margin: 0;
   padding: 20px 120px;
 }
-header div ul li {
+#header nav ul {
+  display: flex;
+}
+#header nav ul li {
   background-color: var(--red);
+  padding: 16px;
   color: white;
 }
-header div ul li a {
+#header nav ul li a {
   color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 /* =============

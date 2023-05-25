@@ -2,7 +2,10 @@
     Hero
 ============= */
 #hero{
+    margin-top: 500px;
+
     div{
+        
         h1{
             font-family: 'Gugi', cursive;
             font-family: Gugi;
@@ -11,10 +14,17 @@
             line-height: 47px;
             letter-spacing: 0em;
             text-align: center;
+            margin: 0;
+        }
+        p{ 
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+            text-align: center;
         }
     }
 
-    #Meet{ 
-        align-self: center;
-    }
+   
 }

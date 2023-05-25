@@ -1,9 +1,14 @@
 /* =============
     Header
 ============= */
-header{
-    
-    div{
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 200px;
+    z-index: 999;
+    nav{
+        
         h1{
             background-color: var(--purple);
             color: white;
@@ -12,12 +17,20 @@ header{
             padding: 20px 120px;
         }
         ul{
+            display: flex;
+            
             li{
                 
                a{
                 color: white;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20px;
                 } 
                 background-color: var(--red);
+                padding: 16px;
                 color: white;
                 
             }
