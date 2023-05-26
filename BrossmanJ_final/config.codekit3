@@ -165,6 +165,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -425,52 +433,76 @@
       "oAP" : "\/deploy\/checkout.html",
       "oF" : 2
     },
-    "\/dev\/content\/accessories.kit" : {
+    "\/dev\/content\/checkout\/bottomhalf.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/accessories.html",
+      "oAP" : "\/dev\/content\/checkout\/bottomhalf.html",
       "oF" : 0
     },
-    "\/dev\/content\/advantages.kit" : {
+    "\/dev\/content\/checkout\/tophalf.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/advantages.html",
+      "oAP" : "\/dev\/content\/checkout\/tophalf.html",
       "oF" : 0
     },
-    "\/dev\/content\/carosel.kit" : {
+    "\/dev\/content\/Product\/accessories.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/carosel.html",
+      "oAP" : "\/dev\/content\/Product\/accessories.html",
       "oF" : 0
     },
-    "\/dev\/content\/hero.kit" : {
+    "\/dev\/content\/Product\/advantages.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
+      "oAP" : "\/dev\/content\/Product\/advantages.html",
       "oF" : 0
     },
-    "\/dev\/content\/packages.kit" : {
+    "\/dev\/content\/Product\/carosel.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/packages.html",
+      "oAP" : "\/dev\/content\/Product\/carosel.html",
       "oF" : 0
     },
-    "\/dev\/content\/reviews.kit" : {
+    "\/dev\/content\/Product\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/reviews.html",
+      "oAP" : "\/dev\/content\/Product\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/Product\/packages.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/Product\/packages.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/Product\/reviews.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/Product\/reviews.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/thankyou\/thankyou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/thankyou\/thankyou.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -674,7 +706,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_accessories.scss" : {
+    "\/dev\/scss\/sections\/checkout\/_bottomhalf.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -683,13 +715,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_accessories.css",
+      "oAP" : "\/dev\/scss\/sections\/checkout\/_bottomhalf.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_advantages.scss" : {
+    "\/dev\/scss\/sections\/checkout\/_tophalf.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -698,13 +730,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_advantages.css",
+      "oAP" : "\/dev\/scss\/sections\/checkout\/_tophalf.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_carosel.scss" : {
+    "\/dev\/scss\/sections\/product\/_accessories.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -713,13 +745,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_carosel.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_accessories.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_hero.scss" : {
+    "\/dev\/scss\/sections\/product\/_advantages.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -728,13 +760,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_advantages.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_packages.scss" : {
+    "\/dev\/scss\/sections\/product\/_carosel.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -743,13 +775,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_packages.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_carosel.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_reviews.scss" : {
+    "\/dev\/scss\/sections\/product\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -758,7 +790,52 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_reviews.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/product\/_packages.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/product\/_packages.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/product\/_reviews.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/product\/_reviews.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/thankyou\/_thankyou.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/thankyou\/_thankyou.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -778,6 +855,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/thankyou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 2
     }
   },
   "hooks" : [

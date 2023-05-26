@@ -2,38 +2,50 @@
     Header
 ============= */
 #header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-bottom: 200px;
-    z-index: 999;
-    nav{
+    div{
         
-        h1{
-            background-color: var(--purple);
-            color: white;
-            text-align: center;
             margin: 0;
-            padding: 20px 120px;
-        }
-        ul{
+            padding-top: 0;
+    }
+      
+          .header {
+            // position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color:var(--red);
+            color: var(--white);
+            padding-top: 25px;
+            // padding-bottom: 16px;
+            text-align: center;
+            // font-weight: bold;
+            font-size: 39px;
+            z-index: 999;
+            font-family: 'Futura PT';
+            font-style: italic;
+            font-weight: 500;
+            line-height: 28px;
+            /* or 72% */
+
+
+          
+      
+          .bottom-section {
             display: flex;
-            
-            li{
-                
-               a{
-                color: white;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 13px;
-                line-height: 20px;
-                } 
-                background-color: var(--red);
-                padding: 16px;
-                color: white;
-                
-            }
-        }
+            background-color:var(--purple);
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            width: 100%;
+          }
+      
+          .bottom-section a {
+            display: inline-block;
+            color: var(--white);
+            text-decoration: none;
+            padding: 8px 16px;
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 13px;
+          }
     }
 }
