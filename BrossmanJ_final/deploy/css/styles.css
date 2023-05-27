@@ -475,15 +475,34 @@ textarea {
 ============= */
 #footer {
   background-color: var(--red);
+  padding-top: 25px;
 }
 #footer h1 {
   color: var(--white);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
 }
 #footer ul li h1 {
   color: var(--white);
 }
 #footer ul li p {
   color: var(--white);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.footer-bar {
+  background-color: white;
+  width: 108px;
+  height: 3px;
+  left: 14px;
+  top: 5968px;
 }
 
 /* =============
