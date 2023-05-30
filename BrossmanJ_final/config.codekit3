@@ -113,6 +113,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/Assets\/steammop.jpg" : {
+      "ft" : 16384,
+      "iS" : 26297,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/steammop.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Assets\/steammop.png" : {
       "ft" : 32768,
       "iS" : 35327,
@@ -256,6 +269,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/carosel\/carosel4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/carosel\/steammop.jpg" : {
+      "ft" : 16384,
+      "iS" : 26297,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/carosel\/steammop.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
