@@ -1,13 +1,39 @@
-.container {
-    display: flex;
-  }
+// .container {
+//   display: grid;
+//   grid-template-columns: repeat(2, minmax(0, 1fr));
+//   grid-template-rows: repeat(3, auto);
+//   grid-gap: 10px;
+//   align-items: start;
+// }
 
-  .column {
-    flex: 1;
-    padding: 10px;
-  }
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
 
-  .image {
-    text-align: center;
-  }
-  
+input {
+  width: 150px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.image {
+  text-align: center;
+  width:100%;
+}
+
+#cost{
+  align-items: center;
+}

@@ -1,41 +1,48 @@
-/* =============
-    Footer
-============= */
-#footer{
-    background-color: var(--red);
-    padding-top: 25px;
-    
-    h1{
-        color: var(--white);
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 18px;
-       }   
-    ul{
-        li{
-           h1{
-            color: var(--white);
-           }
-            p{
-                color: var(--white);
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 18px;
-
-            }
-        }
-    }
+#footer {
+  background-color: var(--red);
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
-.footer-bar{
-    background-color: white;
-    
-    width: 108px;
-    height: 3px;
-    left: 14px;
-    top: 5968px;
+.grid-item {
+  color: var(--white);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 16px
+}
+
+.grid-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  ;
+}
+
+.grid-item ul li {
+  margin-bottom: 5px;
+}
+
+.grid-item ul li p {
+  color: var(--white);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.footer-bar {
+  background-color: white;
+  width: 108px;
+  height: 3px;
+}
+
+.grid-item img {
+  width: 37px;
+  height: auto;
 }
