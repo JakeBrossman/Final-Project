@@ -1,0 +1,55 @@
+    #footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    //   height: 100vh;
+    }
+
+    .thankyou-header {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      color: #fff;
+      font-size: 32px;
+      margin: 0;
+    }
+
+    .white-section {
+      background-color: var(--lightpurple);
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .white-section img {
+      width: 166px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .checkbox-label {
+      margin-bottom: 10px;
+    }
+
+    .thankyou-button {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: 122px;
+        background-color: var(--red);
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 75px;
+    }
+
+    .thankyou-button:hover {
+      background-color: #555;
+    }

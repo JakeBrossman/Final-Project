@@ -392,6 +392,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+p {
+  font-family: "Poppins", sans-serif;
+}
+
 #shark-header {
   font-family: futura-pt, sans-serif;
   font-weight: 600;
@@ -449,11 +453,6 @@ textarea {
   line-height: 28px;
 }
 
-.header {
-  grid-row: 1;
-  justify-self: center;
-}
-
 .bottom-section {
   grid-row: 2;
   display: grid;
@@ -461,7 +460,7 @@ textarea {
   justify-content: center;
   gap: 16px;
   background-color: var(--red);
-  width: 430px;
+  width: 100%;
   padding-top: 16px;
   padding-bottom: 16px;
   font-family: "Poppins";
@@ -536,6 +535,7 @@ textarea {
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--white);
 }
 
 .accessories-section {
@@ -692,6 +692,7 @@ body {
   max-width: 331px;
   height: auto;
   padding-top: 25px;
+  margin-bottom: 25px;
   background-color: var(--purple);
   justify-content: center;
   align-self: center;
@@ -801,33 +802,33 @@ body {
   position: relative;
 }
 
-.bar-1 {
+.reviewbar-1 {
   height: 100%;
   width: 90%;
   background-color: var(--black);
 }
 
-.bar-2 {
+.reviewbar-2 {
   height: 100%;
   width: 25%;
   background-color: var(--black);
 }
 
-.bar-3 {
-  width: 15%;
+.reviewbar-3 {
+  width: 13%;
   height: 100%;
   background-color: var(--black);
 }
 
-.bar-4 {
+.reviewbar-4 {
   height: 100%;
   width: 10%;
   background-color: var(--black);
 }
 
-.bar-5 {
+.reviewbar-5 {
   height: 100%;
-  width: 5%;
+  width: 9%;
   background-color: var(--black);
 }
 
@@ -950,42 +951,35 @@ body {
   text-decoration: underline;
 }
 
-.column {
+.container {
   display: flex;
-  flex-direction: column;
-  padding: 10px;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
 }
 
 input {
-  width: 150px;
+  width: 155px;
+  height: 30px;
+  margin-bottom: 10px;
   padding: 5px;
   border: 1px solid black;
   border-radius: 3px;
-  margin-bottom: 10px;
-  margin-right: 10px;
 }
 
-input::placeholder {
-  color: #999;
-}
-
-input:focus::placeholder {
-  color: transparent;
-}
-
-.image {
-  text-align: center;
-  width: 100%;
-}
-
-#cost {
-  align-items: center;
-}
-
-body {
-  background: #ddeefc;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
+#checkouthero {
+  display: flex;
+  justify-content: center;
+  width: 330px;
+  height: auto;
+  padding: 0;
+  margin-right: 0px;
+  margin-top: 15px;
 }
 
 * {
@@ -996,6 +990,7 @@ body {
 }
 
 .wrapper {
+  background-color: var(--lightpurple);
   min-height: 100vh;
   display: flex;
   padding: 50px 15px;
