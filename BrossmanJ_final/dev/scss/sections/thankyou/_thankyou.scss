@@ -1,55 +1,90 @@
-    #footer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    //   height: 100vh;
-    }
+.thankyou-section {
+  background-color: var(--lightpurple);
+  text-align: center;
+  padding: 50px;
+}
 
-    .thankyou-header {
-      background-color: #333;
-      padding: 20px;
-      text-align: center;
-    }
+.thankyou-section h1 {
+  font-size: 36px;
+  color: var(--purple);
+}
 
-    .header h1 {
-      color: #fff;
-      font-size: 32px;
-      margin: 0;
-    }
+.thankyou-section p{
+  font-size: 18px;
+  color: black;
+}
 
-    .white-section {
-      background-color: var(--lightpurple);
-      padding: 20px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+.coupon-message {
+  font-size: 20px;
+  color: black;
+  margin-top: 50px;
+}
+  
+  #coupon-code{
+  font-size: 24px;
+  color: var(--purple);
+  margin-top: 10px;
+}
+.thankyou-container {
+      
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  background-color: var(--white);
+  text-align: center;
+  padding: 16px;
+}
 
-    .white-section img {
-      width: 166px;
-      height: auto;
-      margin-bottom: 20px;
-    }
+.thankyou-image {
+  // border: 1px solid black;
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  width: 166px;
+  height: 127px;
+  
+}
+#thankyou-image{
+  width: 166px;
+  height: 127px;
+}
 
-    .checkbox-label {
-      margin-bottom: 10px;
-    }
+.email-checkbox {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+// #checklabel{
+//   margin-right: 5px;
+// }
 
-    .thankyou-button {
-        display: inline-block;
-        padding: 10px 20px;
-        border-radius: 5px;
-        width: 122px;
-        background-color: var(--red);
-        color: #fff;
-        font-weight: bold;
-        text-align: center;
-        text-decoration: none;
-        margin-left: 75px;
-    }
+.done-button {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .thankyou-button:hover {
-      background-color: #555;
-    }
+.done-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--red);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.done-button a:hover {
+  background-color: var(--purple);
+}
