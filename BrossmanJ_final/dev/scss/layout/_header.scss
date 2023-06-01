@@ -25,9 +25,11 @@
 // }
 
 .bottom-section {
-  grid-row: 2;
-  display: grid;
-  grid-template-columns: repeat(4, auto);
+  display: flex;
+  flex-direction: row;
+  // grid-row: 2;
+  // display: grid;
+  // grid-template-columns: repeat(4, auto);
   justify-content: center;
   gap: 16px;
   background-color: var(--red);
@@ -53,7 +55,7 @@
     font-weight: 400;
     font-size: 27px;
     line-height: 40px;
-    gap: 130px;
+    gap: 115px;
   }
   
 }
