@@ -1,7 +1,10 @@
 /* =============
     Base
 ============= */
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 ul{
     padding: 0;
@@ -17,9 +20,9 @@ a{
     text-decoration: none;
 }
 
-.hero-images{
-    width: 100%;
-}
+// .hero-images{
+//     width: 100%;
+// }
 .red-bar{
     background-color: var(--red);
     padding-top: 36px;

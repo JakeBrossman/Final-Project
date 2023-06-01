@@ -331,6 +331,11 @@ template {
 /* =============
     Base
 ============= */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -343,10 +348,6 @@ ul li {
 
 a {
   text-decoration: none;
-}
-
-.hero-images {
-  width: 100%;
 }
 
 .red-bar {
@@ -499,9 +500,9 @@ textarea {
 @media (min-width: 768px) {
   .bottom-section {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
-    gap: 100px;
+    gap: 50px;
   }
 }
 @media (min-width: 1024px) {
@@ -726,6 +727,16 @@ body {
   height: auto;
   margin-bottom: 20px;
 }
+@media (min-width: 768px) {
+  #hero .hero-image {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  #hero .hero-image {
+    max-width: 1440px;
+  }
+}
 
 #hero h1 {
   font-family: "Gugi", cursive;
@@ -736,6 +747,7 @@ body {
 }
 
 #hero p {
+  text-align: center;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -902,6 +914,7 @@ body {
 .star-rating {
   width: 100px;
   margin-right: 10px;
+  text-align: center;
 }
 
 .bar-graph {

@@ -15,6 +15,15 @@
     max-width: 600px;
     height: auto;
     margin-bottom: 20px;
+
+    @include md{
+        width: 100%;
+    }
+
+    @include lg{
+        max-width: 1440px;
+    }
+    
 }
 
 #hero h1 {
@@ -26,6 +35,7 @@
 }
 
 #hero p {
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
