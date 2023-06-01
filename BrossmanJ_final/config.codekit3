@@ -380,6 +380,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/hero\/hero1.jpg" : {
+      "ft" : 16384,
+      "iS" : 776026,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/hero1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/packages\/sharkvac.png" : {
       "ft" : 32768,
       "iS" : 23301,
@@ -479,7 +492,7 @@
       "oAP" : "\/deploy\/img\/underhero\/underhero3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

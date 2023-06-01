@@ -353,6 +353,7 @@ a {
   background-color: var(--red);
   padding-top: 36px;
   width: 100%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .imagebars {
@@ -370,6 +371,14 @@ a {
   text-align: center;
   color: var(--purple);
 }
+@media (min-width: 1024px) {
+  .section-title {
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 150px;
+    margin: 0;
+  }
+}
 
 .button {
   display: inline-block;
@@ -383,6 +392,23 @@ a {
   text-decoration: none;
   margin-left: 75px;
   cursor: pointer;
+}
+@media (min-width: 1024px) {
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 122px;
+    height: 53px;
+    left: 271px;
+    top: 2464px;
+    background: #B1262B;
+    border-radius: 8px;
+    margin-left: 200px;
+  }
 }
 
 /* =============
@@ -471,6 +497,22 @@ textarea {
   line-height: 20px;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .bottom-section {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    gap: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .bottom-section {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    gap: 130px;
+  }
+}
 
 .bottom-section a {
   color: white;
@@ -547,6 +589,12 @@ body {
   text-align: center;
 }
 
+@media (min-width: 1024px) {
+  #accessories-media {
+    display: flex;
+  }
+}
+
 .accessory-card {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -555,11 +603,26 @@ body {
   width: 300px;
   padding: 20px;
 }
+@media (min-width: 1024px) {
+  .accessory-card {
+    width: 500px;
+    height: auto;
+    gap: 50px;
+    overflow: hidden;
+  }
+}
 
 .accessory-image {
   width: 100%;
   padding-top: 25px;
   background-color: var(--purple);
+}
+@media (min-width: 1024px) {
+  .accessory-image {
+    width: 533px;
+    height: auto;
+    gap: 50px;
+  }
 }
 
 .accessory-paragraph {
@@ -571,20 +634,26 @@ body {
   line-height: 20px;
   text-align: center;
 }
+@media (min-width: 1024px) {
+  .accessory-paragraph {
+    margin: 0;
+  }
+}
 
 /* =============
     advantages
 ============= */
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .advantages-section {
   display: grid;
   place-items: center;
   gap: 20px;
   text-align: center;
+}
+
+@media (min-width: 1024px) {
+  #advantage-media {
+    display: flex;
+  }
 }
 
 .advantage-card {
@@ -623,6 +692,12 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+}
+@media (min-width: 1024px) {
+  .image-container {
+    flex-direction: row;
+    gap: 16px;
+  }
 }
 
 .image-container .image-row {
@@ -671,17 +746,19 @@ body {
   max-width: 600px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .packages-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  #packages-media {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .package {
@@ -693,7 +770,6 @@ body {
   max-width: 331px;
   height: auto;
   padding-top: 25px;
-  margin-bottom: 25px;
   background-color: var(--purple);
   justify-content: center;
   align-self: center;
@@ -710,6 +786,34 @@ body {
   text-align: center;
   color: var(--red);
 }
+@media (min-width: 1024px) {
+  .package h3 {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .LargeSizeH3 {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .LargeSizeH3 {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .LargeSizeH3 {
+    margin: 10px 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: var(--red);
+  }
+}
 
 .package p {
   margin: 10px 0;
@@ -718,10 +822,12 @@ body {
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .buy-button-section {
+  margin-top: 50px;
+  margin-bottom: 16px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -729,7 +835,7 @@ body {
   color: var(--white);
   border: none;
   border-radius: 75px;
-  margin-bottom: 16px;
+  width: 122px; /* Added this line */
   padding: 15px 70px; /* Updated padding */
   cursor: pointer;
   text-decoration: none;
@@ -747,20 +853,23 @@ body {
 }
 
 .compare-button {
+  display: inline-block;
+  padding: 18px 16px;
+  border-radius: 75px;
+  width: 300px;
+  height: 72;
   background-color: var(--red);
   color: #fff;
-  border: none;
-  border-radius: 75px;
-  padding: 8px 16px;
-  cursor: pointer;
-  width: 300px;
-  height: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
   text-align: center;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 36px;
+  cursor: pointer;
 }
 
 .reviews-section {

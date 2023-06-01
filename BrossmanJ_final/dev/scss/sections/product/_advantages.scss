@@ -1,10 +1,10 @@
 /* =============
     advantages
 ============= */
-body {
-  margin: 0;
-  padding: 0;
-}
+// body {
+//   margin: 0;
+//   padding: 0;
+// }
 
 .advantages-section {
   display: grid;
@@ -13,9 +13,19 @@ body {
   // padding: 50px;
   text-align: center;
 
+  
+
+
 }
 
+#advantage-media{
+  
+  @include lg{
+    display: flex;
+  }
 
+  
+}
 
 .advantage-card {
   display: grid;
@@ -24,13 +34,18 @@ body {
   text-align: center;
   width: 300px;
   padding: 20px;
-
+ 
 }
 
 .advantage-image {
   width: 100%;
   padding-top: 25px;
   background-color: var(--purple);
+  // @include md{
+  //   width: 400px;
+  //   height: auto;
+    
+  // }
 }
 
 .advantage-caption {

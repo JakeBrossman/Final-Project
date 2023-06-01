@@ -24,6 +24,7 @@ a{
     background-color: var(--red);
     padding-top: 36px;
     width: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .imagebars{
@@ -40,6 +41,13 @@ a{
     line-height: 82px;
     text-align: center;
     color: var(--purple);
+
+    @include lg{
+        font-weight: 500;
+        font-size: 100px;
+        line-height: 150px;
+        margin: 0;
+    }
 }
 
 .button {
@@ -55,4 +63,22 @@ a{
     margin-left: 75px;
     
     cursor: pointer;
+    @include lg{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        gap: 10px;
+        
+        // position: absolute;
+        width: 122px;
+        height: 53px;
+        left: 271px;
+        top: 2464px;
+        
+        background: #B1262B;
+        border-radius: 8px; 
+        margin-left: 200px;       
+      }
   }

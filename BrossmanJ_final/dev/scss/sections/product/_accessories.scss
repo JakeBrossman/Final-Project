@@ -14,10 +14,18 @@ body {
   gap: 20px;
   background-color: var(--lightpurple);
   text-align: center;
+  
 }
 
 
+#accessories-media{
+  
+  @include lg{
+    display: flex;
+  }
 
+  
+}
 
 
 .accessory-card {
@@ -28,12 +36,25 @@ body {
   width: 300px;
   padding: 20px;
  
+  @include lg{
+    width: 500px;
+    height: auto;
+    gap: 50px;
+    // margin-left: 20px;
+    overflow: hidden;
+  }
 }
 
 .accessory-image {
   width: 100%;
   padding-top: 25px;
   background-color: var(--purple);
+
+  @include lg{
+    width: 533px;
+    height: auto;
+    gap: 50px;
+  }
 }
 
 .accessory-paragraph {
@@ -44,4 +65,9 @@ body {
   font-size: 13px;
   line-height: 20px;
   text-align: center;
+
+  @include lg{
+    margin: 0;
+  }
+  
 }

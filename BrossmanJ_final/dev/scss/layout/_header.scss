@@ -41,7 +41,20 @@
   font-size: 13px;
   line-height: 20px;
   text-align: center;
-  
+   
+  @include md{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    gap: 100px;
+  }
+
+  @include lg{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    gap: 130px;
+  }
   
 }
 
