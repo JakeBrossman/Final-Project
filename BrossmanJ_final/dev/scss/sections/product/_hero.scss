@@ -1,6 +1,8 @@
 /* =============
     Hero
 ============= */
+
+
 #hero {
     text-align: center;
     // padding: 50px 0;
@@ -8,7 +10,17 @@
     // color: var(--white);
     display: grid;
     place-items: center;
+
+    background-image: url("../img/hero/hero.png");
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+
 
 #hero .hero-image {
     width: 100%;
@@ -26,15 +38,27 @@
     
 }
 
-#hero h1 {
-    font-family: 'Gugi', cursive;
-    font-size: 46px;
+#stratos-header {
+    font-family: 'Gugi';
+    font-style: normal;
     font-weight: 400;
+    font-size: 46px;
     line-height: 47px;
     margin: 0;
+    color: var(--white);
+
+   
+     @include lg{
+        
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-weight: 400;
+        font-size: 126px;
+        line-height: 28px;
+     }
 }
 
-#hero p {
+#meet {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -43,5 +67,10 @@
     line-height: 24px;
     margin: 16px 20%;
     // max-width: 600px;
+    @include lg{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 

@@ -35,13 +35,24 @@ body {
   text-align: center;
   width: 300px;
   padding: 20px;
- 
-  @include lg{
-    width: 500px;
+  @include md{
+    width: 100%;
     height: auto;
     gap: 50px;
     // margin-left: 20px;
     overflow: hidden;
+  }
+ 
+  @include lg{
+    width: 100%;
+    height: auto;
+    gap: 50px;
+    // margin-left: 20px;
+    overflow: hidden;
+    
+  }
+  @include xl{
+    max-width: 1440px;
   }
 }
 
@@ -51,9 +62,12 @@ body {
   background-color: var(--purple);
 
   @include lg{
-    width: 533px;
+    width: 100%;
     height: auto;
     gap: 50px;
+  }
+  @include xl{
+    max-width: 1440px;
   }
 }
 

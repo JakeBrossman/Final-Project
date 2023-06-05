@@ -21,6 +21,7 @@
   @include lg{
     display: flex;
     flex-direction: row;
+    max-width: 1440px;
   }
 
   
@@ -45,8 +46,20 @@
   justify-content: center;
   align-self: center;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Added this line */
+  margin-bottom: 25px;
 
 }
+
+// #bground-img{
+//   background-image: url("../img/packages/sharkvac.png");
+//   background-size: cover;
+//   height: 50vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding-top: 25px;
+//   color: var(--purple);
+// }
 
 .package h3 {
   margin: 10px 0;

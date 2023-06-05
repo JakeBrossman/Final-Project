@@ -367,10 +367,18 @@ a {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 55px;
+  font-size: 45px;
   line-height: 82px;
   text-align: center;
   color: var(--purple);
+}
+@media (min-width: 768px) {
+  .section-title {
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 150px;
+    margin: 0;
+  }
 }
 @media (min-width: 1024px) {
   .section-title {
@@ -391,7 +399,6 @@ a {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  margin-left: 75px;
   cursor: pointer;
 }
 @media (min-width: 1024px) {
@@ -485,7 +492,7 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 16px;
+  gap: 8px;
   background-color: var(--red);
   width: 100%;
   padding-top: 16px;
@@ -493,7 +500,7 @@ textarea {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 20px;
   text-align: center;
 }
@@ -602,12 +609,25 @@ body {
   width: 300px;
   padding: 20px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .accessory-card {
-    width: 500px;
+    width: 100%;
     height: auto;
     gap: 50px;
     overflow: hidden;
+  }
+}
+@media (min-width: 1024px) {
+  .accessory-card {
+    width: 100%;
+    height: auto;
+    gap: 50px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1200px) {
+  .accessory-card {
+    max-width: 1440px;
   }
 }
 
@@ -618,9 +638,14 @@ body {
 }
 @media (min-width: 1024px) {
   .accessory-image {
-    width: 533px;
+    width: 100%;
     height: auto;
     gap: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .accessory-image {
+    max-width: 1440px;
   }
 }
 
@@ -654,6 +679,11 @@ body {
     display: flex;
   }
 }
+@media (min-width: 1200px) {
+  #advantage-media {
+    max-width: 1440px;
+  }
+}
 
 .advantage-card {
   display: grid;
@@ -662,6 +692,21 @@ body {
   text-align: center;
   width: 300px;
   padding: 20px;
+}
+@media (min-width: 1024px) {
+  .advantage-card {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .advantage-card {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .advantage-card {
+    max-width: 1440px;
+  }
 }
 
 .advantage-image {
@@ -674,6 +719,20 @@ body {
   margin: 10px 0;
   font-weight: bold;
 }
+@media (min-width: 768px) {
+  .advantage-caption {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+  }
+}
+@media (min-width: 1024px) {
+  .advantage-caption {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+  }
+}
 
 .advantage-paragraph {
   margin: 0;
@@ -683,6 +742,18 @@ body {
   font-size: 13px;
   line-height: 20px;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .advantage-paragraph {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+@media (min-width: 1024px) {
+  .advantage-paragraph {
+    font-size: 15px;
+  }
 }
 
 .image-container {
@@ -718,6 +789,12 @@ body {
   text-align: center;
   display: grid;
   place-items: center;
+  background-image: url("../img/hero/hero.png");
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero .hero-image {
@@ -736,15 +813,26 @@ body {
   }
 }
 
-#hero h1 {
-  font-family: "Gugi", cursive;
-  font-size: 46px;
+#stratos-header {
+  font-family: "Gugi";
+  font-style: normal;
   font-weight: 400;
+  font-size: 46px;
   line-height: 47px;
   margin: 0;
+  color: var(--white);
+}
+@media (min-width: 1024px) {
+  #stratos-header {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 126px;
+    line-height: 28px;
+  }
 }
 
-#hero p {
+#meet {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -752,6 +840,13 @@ body {
   font-size: 16px;
   line-height: 24px;
   margin: 16px 20%;
+}
+@media (min-width: 1024px) {
+  #meet {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 
 .packages-section {
@@ -766,6 +861,7 @@ body {
   #packages-media {
     display: flex;
     flex-direction: row;
+    max-width: 1440px;
   }
 }
 
@@ -782,6 +878,7 @@ body {
   justify-content: center;
   align-self: center;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Added this line */
+  margin-bottom: 25px;
 }
 
 .package h3 {
