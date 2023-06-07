@@ -26,6 +26,8 @@
   max-width: 144px;
   height: auto;
   margin-bottom: 16px;
-  
+   @include md{
+    max-width: none;
+   }
   
 }

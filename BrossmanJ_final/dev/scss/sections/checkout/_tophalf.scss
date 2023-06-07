@@ -24,7 +24,18 @@ input {
   padding: 5px;
   border: 1px solid black;
   border-radius: 3px;
+
+   @include md{
+    width: 250px;
+    height: 45px;
   
+   }
+
+   @include md{
+    width: 500px;
+    height: 50px;
+  
+   }
 }
 
 #checkouthero{
@@ -33,9 +44,7 @@ input {
   width: 330px;
   height: auto;
   padding: 0;
-  margin-right: 0px;
-  margin-top: 15px;
-  margin-left: 30px;
+  margin: 16px 20%;
   box-shadow:(-4px 4px 4px rgba(0, 0, 0, 0.25));
   
 }
