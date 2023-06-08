@@ -48,8 +48,9 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Added this line */
   margin-bottom: 25px;
 
-@include md{
-  max-width: none;
+@include lg{
+  // max-width: none;
+  // padding-right: 16px;
 }
 
 }

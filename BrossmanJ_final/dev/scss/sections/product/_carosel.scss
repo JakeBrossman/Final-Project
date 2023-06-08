@@ -31,3 +31,9 @@
    }
   
 }
+
+#mopimg{
+  @include lg{
+    display: none;
+  }
+}

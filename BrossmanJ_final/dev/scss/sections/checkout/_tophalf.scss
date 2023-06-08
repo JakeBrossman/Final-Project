@@ -1,5 +1,7 @@
 
-
+#checkout{
+  margin-top: 216px;
+}
 .container {
   display: flex;
   justify-content: center;
@@ -26,20 +28,24 @@ input {
   border-radius: 3px;
 
    @include md{
-    width: 250px;
+    width: 300px;
     height: 45px;
   
    }
 
-   @include md{
+   @include lg{
     width: 500px;
     height: 50px;
   
    }
 }
-
+#checkouthero-contain{
+  text-align: center;
+  justify-content: center;
+}
 #checkouthero{
-  display: flex;
+  text-align: center;
+  // display: flex;
   justify-content: center;
   width: 330px;
   height: auto;
