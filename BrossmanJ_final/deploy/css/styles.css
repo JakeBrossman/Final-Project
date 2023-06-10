@@ -583,7 +583,7 @@ textarea {
 /* =============
     accessories
 ============= */
-.accessories-section {
+#accessories-section {
   display: grid;
   place-items: center;
   gap: 20px;
@@ -663,7 +663,7 @@ textarea {
 /* =============
     advantages
 ============= */
-.advantages-section {
+#advantages-section {
   display: grid;
   place-items: center;
   gap: 20px;
@@ -844,7 +844,7 @@ textarea {
   }
 }
 
-.packages-section {
+#packages-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1276,6 +1276,7 @@ input {
   background-color: var(--lightpurple);
   text-align: center;
   padding: 50px;
+  margin-top: 200px;
 }
 
 .thankyou-section h1 {
