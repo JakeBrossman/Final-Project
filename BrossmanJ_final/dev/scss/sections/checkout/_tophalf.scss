@@ -50,8 +50,14 @@ input {
   width: 330px;
   height: auto;
   padding: 0;
-  margin: 16px 20%;
-  box-shadow:(-4px 4px 4px rgba(0, 0, 0, 0.25));
+  // margin: 16px 20%;
+  // box-shadow:(-4px 4px 4px rgba(0, 0, 0, 0.25));
+  
+  @include lg{
+    margin: 16px 20%;
+    width: 542px;
+    height: auto;
+  }
   
 }
 #sharkcost{

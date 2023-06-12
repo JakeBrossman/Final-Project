@@ -796,7 +796,7 @@ textarea {
     Hero
 ============= */
 #hero {
-  margin-top: 200px;
+  margin-top: 170px;
   text-align: center;
   display: grid;
   place-items: center;
@@ -808,6 +808,12 @@ textarea {
   align-items: center;
   background-position: bottom;
 }
+@media (min-width: 1024px) {
+  #hero {
+    margin-top: 200px;
+  }
+}
+
 #stratos-header {
   font-family: "Gugi";
   font-style: normal;
@@ -1014,7 +1020,6 @@ textarea {
   width: 200px;
   height: 20px;
   background-color: lightgray;
-  position: relative;
 }
 
 .reviewbar-1 {
@@ -1077,7 +1082,6 @@ textarea {
   width: 200px;
   height: 20px;
   background-color: lightgray;
-  position: relative;
 }
 
 .bar-1 {
@@ -1214,8 +1218,13 @@ input {
   width: 330px;
   height: auto;
   padding: 0;
-  margin: 16px 20%;
-  box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 1024px) {
+  #checkouthero {
+    margin: 16px 20%;
+    width: 542px;
+    height: auto;
+  }
 }
 
 #sharkcost {
@@ -1252,9 +1261,31 @@ input {
 .card-input {
   width: 100%;
   height: 30px;
+  margin-bottom: 10px;
   padding: 5px;
   border: 1px solid black;
   border-radius: 3px;
+}
+@media (min-width: 768px) {
+  .card-input {
+    width: 300px;
+    height: 45px;
+  }
+}
+@media (min-width: 1024px) {
+  .card-input {
+    width: 500px;
+    height: 50px;
+  }
+}
+
+#expiry-date {
+  width: 100px;
+}
+
+#cvv {
+  width: 100px;
+  margin-left: 50px;
 }
 
 #button-contain {
@@ -1312,15 +1343,28 @@ input {
 }
 
 .thankyou-image {
+  border: 1px solid black;
   grid-column: 1/2;
   grid-row: 1/4;
   width: 166px;
   height: 127px;
 }
+@media (min-width: 1024px) {
+  .thankyou-image {
+    width: 392px;
+    height: 301px;
+  }
+}
 
 #thankyou-image {
   width: 166px;
   height: 127px;
+}
+@media (min-width: 1024px) {
+  #thankyou-image {
+    width: 392px;
+    height: 301px;
+  }
 }
 
 .email-checkbox {
@@ -1336,6 +1380,12 @@ input {
   line-height: 16px;
   margin: 0;
   padding: 0;
+  background-color: var(--red);
+  color: var(--purple);
+}
+
+#checklabel {
+  margin-right: 5px;
 }
 
 .done-button {

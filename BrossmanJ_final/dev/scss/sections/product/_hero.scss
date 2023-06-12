@@ -4,7 +4,7 @@
 
 
 #hero {
-    margin-top: 200px;
+    margin-top: 170px;
     text-align: center;
     // padding: 50px 0;
     // background-color: var(--purple);
@@ -21,6 +21,7 @@
     background-position: bottom;
     @include lg{
         // max-width: 1440px;
+        margin-top: 200px;
     }
 }
 
