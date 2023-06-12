@@ -2,7 +2,11 @@
   background-color: var(--lightpurple);
   text-align: center;
   padding: 50px;
-  margin-top: 200px;
+  margin-top: 170px;
+
+  @include lg{
+    margin-top: 200px;
+  }
 }
 
 .thankyou-section h1 {
@@ -74,11 +78,13 @@
   line-height: 16px;
   margin: 0;
   padding: 0;
-  background-color: var(--red);
-  color: var(--purple);
+  border: 1px solid red;
 }
-#checklabel{
-  margin-right: 5px;
+// #checklabel{
+//   margin-right: 5px;
+// }
+#check-label{
+margin-right: 55px;
 }
 
 .done-button {

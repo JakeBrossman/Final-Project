@@ -698,7 +698,7 @@ textarea {
 }
 @media (min-width: 768px) {
   .advantage-card {
-    width: 100%;
+    width: 320px;
   }
 }
 @media (min-width: 1200px) {
@@ -1307,7 +1307,12 @@ input {
   background-color: var(--lightpurple);
   text-align: center;
   padding: 50px;
-  margin-top: 200px;
+  margin-top: 170px;
+}
+@media (min-width: 1024px) {
+  .thankyou-section {
+    margin-top: 200px;
+  }
 }
 
 .thankyou-section h1 {
@@ -1380,12 +1385,11 @@ input {
   line-height: 16px;
   margin: 0;
   padding: 0;
-  background-color: var(--red);
-  color: var(--purple);
+  border: 1px solid red;
 }
 
-#checklabel {
-  margin-right: 5px;
+#check-label {
+  margin-right: 55px;
 }
 
 .done-button {
