@@ -820,13 +820,20 @@ textarea {
   font-weight: 400;
   font-size: 46px;
   line-height: 47px;
-  margin: 0;
+  margin-top: 300px;
   color: var(--white);
+}
+@media (min-width: 768px) {
+  #stratos-header {
+    margin-top: 400px;
+    font-weight: 400;
+    font-size: 126px;
+    line-height: 28px;
+  }
 }
 @media (min-width: 1024px) {
   #stratos-header {
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 300px;
     font-weight: 400;
     font-size: 126px;
     line-height: 28px;
@@ -1348,7 +1355,6 @@ input {
 }
 
 .thankyou-image {
-  border: 1px solid black;
   grid-column: 1/2;
   grid-row: 1/4;
   width: 166px;
@@ -1365,6 +1371,11 @@ input {
   width: 166px;
   height: 127px;
 }
+@media (min-width: 768px) {
+  #thankyou-image {
+    margin-left: 200px;
+  }
+}
 @media (min-width: 1024px) {
   #thankyou-image {
     width: 392px;
@@ -1374,10 +1385,8 @@ input {
 
 .email-checkbox {
   grid-column: 2/3;
-  grid-row: 1/2;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -1385,11 +1394,14 @@ input {
   line-height: 16px;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
 }
 
-#check-label {
-  margin-right: 55px;
+#checklabel {
+  margin-left: 50px;
+}
+
+.email-checkbox input[type=checkbox]:checked + #check-label {
+  color: red;
 }
 
 .done-button {

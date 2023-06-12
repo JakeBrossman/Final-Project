@@ -42,7 +42,7 @@
 }
 
 .thankyou-image {
-  border: 1px solid black;
+  // border: 1px solid black;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
   width: 166px;
@@ -57,20 +57,22 @@
 #thankyou-image{
   width: 166px;
   height: 127px;
+@include md{
+  margin-left: 200px;
 
+}
   @include lg{
     width: 392px;
     height: 301px;
-    // margin-left: 200px;
   }
 }
 
 .email-checkbox {
   grid-column: 2 / 3;
-  grid-row: 1 / 2;
-  display: flex;
+  // grid-row: 1 / 3;
+  // display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -78,14 +80,16 @@
   line-height: 16px;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
-// #checklabel{
-//   margin-right: 5px;
-// }
-#check-label{
-margin-right: 55px;
+#checklabel{
+  margin-left: 50px;
 }
+
+.email-checkbox input[type="checkbox"]:checked + #check-label {
+  color: red;
+}
+
 
 .done-button {
   grid-column: 2 / 3;
