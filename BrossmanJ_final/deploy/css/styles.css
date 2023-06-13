@@ -825,7 +825,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #stratos-header {
-    margin-top: 400px;
+    margin-top: 300px;
     font-weight: 400;
     font-size: 126px;
     line-height: 28px;
@@ -833,7 +833,7 @@ textarea {
 }
 @media (min-width: 1024px) {
   #stratos-header {
-    margin-top: 300px;
+    margin-top: 250px;
     font-weight: 400;
     font-size: 126px;
     line-height: 28px;
